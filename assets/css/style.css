@@ -23,6 +23,7 @@ h1, h2 {
 #logo {
     float:left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -100,4 +101,20 @@ h1, h2 {
     right: 150px;
 
     position: absolute;
+}
+
+/* club ethons */
+#club ethons {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    fload: left;
+}
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    fload: right;
 }
