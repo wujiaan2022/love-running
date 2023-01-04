@@ -166,7 +166,9 @@ hr {
     margin: 0 auto;
 }
 #circle-cover-bg {
-    background: url(../image/ethos-center-image.jpg) no-repeat cover center;
+    background: url('../image/ethos-center-image.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100%;
     border-radius: 50%;
 }
@@ -219,4 +221,33 @@ footer {
 }
 #photos > img {
     width: 100%;
+}
+
+/* media queries */
+
+/* For large to medium screen size from 1200px and down */
+@media screen and (max-width: 1200px) {
+    #club-ethons {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    #center-about {
+        clear:both;
+        width:100%;
+        float:left;
+        padding:0;
+    }
+    hr {
+        display:none;
+    }
 }
